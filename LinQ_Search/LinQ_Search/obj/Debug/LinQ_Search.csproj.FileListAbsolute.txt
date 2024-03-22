@@ -1,0 +1,7 @@
+D:\GitHub\C#\BT_LinQ2\LinQ_Search\LinQ_Search\bin\Debug\LinQ_Search.exe.config
+D:\GitHub\C#\BT_LinQ2\LinQ_Search\LinQ_Search\bin\Debug\LinQ_Search.exe
+D:\GitHub\C#\BT_LinQ2\LinQ_Search\LinQ_Search\bin\Debug\LinQ_Search.pdb
+D:\GitHub\C#\BT_LinQ2\LinQ_Search\LinQ_Search\obj\Debug\LinQ_Search.csproj.AssemblyReference.cache
+D:\GitHub\C#\BT_LinQ2\LinQ_Search\LinQ_Search\obj\Debug\LinQ_Search.csproj.CoreCompileInputs.cache
+D:\GitHub\C#\BT_LinQ2\LinQ_Search\LinQ_Search\obj\Debug\LinQ_Search.exe
+D:\GitHub\C#\BT_LinQ2\LinQ_Search\LinQ_Search\obj\Debug\LinQ_Search.pdb
