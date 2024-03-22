@@ -1,2 +1,2 @@
-# BT_LinQ2_
+# BT_LinQ2
  
