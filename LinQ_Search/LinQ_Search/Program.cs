@@ -37,7 +37,7 @@ namespace LinQ_Search
             Console.Write("Tuoi tu: ");
             int minAge = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("en tuoi: ");
+            Console.Write("den tuoi: ");
             int maxAge = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("Vi tri: ");
@@ -55,17 +55,17 @@ namespace LinQ_Search
                                   .Join(departments,
                                         e => e.Emp.departmentID,
                                         d => d.departmentID,
-                                        (e, d) => new { EmpPos = e, Dep = d })
+                                        (e, d) => new { EmpDep = e, Dep = d })
                                   .Where(d => d.Dep.depName.Contains(departmentKey));
 
             if (result.Any())
             {
                 foreach (var item in result)
                 {
-                    var employee = item.EmpPos.Emp.emName;
-                    var position = item.EmpPos.Pos.posName;
+                    var employee = item.EmpDep.Emp.emName;
+                    var position = item.EmpDep.Pos.posName;
                     var department = item.Dep.depName;
-                    Console.WriteLine($"Employee: {employee}, Age: {item.EmpPos.Emp.age}, Position: {position}, Department: {department}");
+                    Console.WriteLine($"Employee: {employee}, Age: {item.EmpDep.Emp.age}, Position: {position}, Department: {department}");
                 }
             }
             else
